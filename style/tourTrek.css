@@ -1,4 +1,9 @@
+/* Mulish Google Font Link  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+body{
+font-family: "Mulish", sans-serif;
+}
 
 *{
     margin: 0;
@@ -9,4 +14,87 @@
 
 .hero{
     font-size: 200px;
+}
+
+/* CSS Styles for Header Section  */
+
+/* CSS Styles for Nav Section  */
+
+header{
+    max-width: 1770px;
+    margin: 0 auto;
+    padding: 53px 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .nav-logo img{
+    width: 4rem;
+    height: 4.5rem;
+} */
+
+.nav-logo h1{
+    font-weight: 800;
+    font-size: 2.25rem;
+    color: #131318;
+}
+.nav-logo span{
+    color: #FF5400;
+}
+
+ul{
+    display: flex;
+}
+ul>li{
+    list-style: none;
+    margin-right: 44px;
+     color: #424247;
+    font-weight: 400;
+    font-size: 1.125rem;
+}
+
+ul a{
+    text-decoration: none;
+   
+}
+
+
+
+/* CSS Styles for Footer Section  */
+
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    display: flex;
+}
+
+.footer-title h1{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #131318;
+}
+.footer-title span{
+    color: #FF5400;
+}
+.footer-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.social-icons{
+    display: flex;
+
 }

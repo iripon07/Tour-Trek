@@ -1,100 +1,192 @@
 /* Mulish Google Font Link  */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-body{
-font-family: "Mulish", sans-serif;
+body {
+  font-family: "Mulish", sans-serif;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.hero{
-    font-size: 200px;
+.hero {
+  font-size: 200px;
 }
 
 /* CSS Styles for Header Section  */
 
 /* CSS Styles for Nav Section  */
 
-header{
-    max-width: 1770px;
-    margin: 0 auto;
-    padding: 53px 0;
+header {
+  max-width: 1770px;
+  margin: 0 auto;
+  padding: 53px 0;
 }
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* .nav-logo img{
     width: 4rem;
     height: 4.5rem;
 } */
 
-.nav-logo h1{
-    font-weight: 800;
-    font-size: 2.25rem;
-    color: #131318;
+.nav-logo h1 {
+  font-weight: 800;
+  font-size: 2.25rem;
+  color: #131318;
 }
-.nav-logo span{
-    color: #FF5400;
-}
-
-ul{
-    display: flex;
-}
-ul>li{
-    list-style: none;
-    margin-right: 44px;
-     color: #424247;
-    font-weight: 400;
-    font-size: 1.125rem;
+.nav-logo span {
+  color: #ff5400;
 }
 
-ul a{
-    text-decoration: none;
-   
+ul {
+  display: flex;
+}
+ul > li {
+  list-style: none;
+  margin-right: 44px;
+  color: #424247;
+  font-weight: 400;
+  font-size: 1.125rem;
 }
 
+ul a {
+  text-decoration: none;
+}
+/* CSS Styles for Header's Banner Section  */
 
+.banner {
+  margin-top: 50px;
+  max-width: 1770px;
+  position: relative;
+  max-height: 500px;
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  display: block;
+}
+
+.banner-text-part {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-hero {
+  font-size: 4rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.button-container {
+  margin: auto;
+
+  display: flex;
+
+  padding: 1rem;
+}
+.button-super-container {
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 16px;
+  width: 174px;
+  height: 52px;
+  margin-right: 24px;
+  border-radius: 0.5rem;
+}
+
+.banner-button {
+  background-color: #ffffff;
+  padding: 1rem;
+}
+
+.find_now {
+  background-color: #ff5400; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 34px;
+  text-align: center;
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.find_now i {
+  margin-right: 5px;
+}
+
+/* CSS Styles for Main  */
+
+main {
+  max-width: 1770px;
+  margin: 0 auto;
+}
 
 /* CSS Styles for Footer Section  */
 
-footer{
-    background-color: rgba(19, 19, 24, 0.05);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer {
+  background-color: rgba(19, 19, 24, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
 }
-.footer-title{
-    display: flex;
-}
-
-.footer-title h1{
-    font-weight: 800;
-    font-size: 2rem;
-    color: #131318;
-}
-.footer-title span{
-    color: #FF5400;
-}
-.footer-description{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #5A5A5D;
+.footer-title {
+  display: flex;
 }
 
-.social-icons{
-    display: flex;
+.footer-title h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  color: #131318;
+}
+.footer-title span {
+  color: #ff5400;
+}
+.footer-description {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5a5a5d;
+}
 
+.social-icons {
+  display: flex;
 }

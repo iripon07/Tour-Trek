@@ -1,0 +1,12 @@
+@media screen and (max-width: 576px) {
+  footer {
+    padding: 32px 20px;
+  }
+  .footer-description {
+    padding: 0 22px;
+    margin-bottom: 16px;
+  }
+  .footer-hr {
+    margin: 23.5px 0 24.5px 0;
+  }
+}

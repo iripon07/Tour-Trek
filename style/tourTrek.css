@@ -239,9 +239,10 @@ main {
 .grid-container{
     margin-top: 3rem;
     display: grid;
-    grid-template-columns: auto;
-
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 24px;
 }
+
 
 
 
@@ -251,13 +252,12 @@ main {
 
 footer {
   background-color: rgba(19, 19, 24, 0.05);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 200px;
+  padding: 110px 284px;
 }
 .footer-title {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-title h1 {
@@ -272,8 +272,27 @@ footer {
   font-size: 1rem;
   font-weight: 400;
   color: #5a5a5d;
+  text-align: center;
+  padding: 0 52px;
+  margin-top: 15px;
+  margin-bottom: 32.5px;
 }
 
 .social-icons {
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-icons i{
+padding: 0 16px;
+}
+.footer-hr{
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin: 49.58px 0 50.5px 0;
+}
+footer p{
+  color: rgb(19, 19, 24);
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
 }

@@ -1,4 +1,37 @@
 @media screen and (max-width: 576px) {
+  
+/* CSS Styles for Popular Tour Section  */
+.tour-section {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+  .package-container {
+  display: flex;
+  flex-direction: column;
+}
+  .offer-package{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+.offer-package-container{
+  width: 335px;
+  height: 353px;
+  margin-bottom: 1rem;
+   padding: 1.5rem 1.5rem  1.5rem 23px;
+
+}
+.offer-photo-container{
+   width: 335px;
+  height: 300px;
+  position: relative;
+}
+.offer-photo-container img{
+  width: auto;
+}
+  
   footer {
     padding: 32px 20px;
   }
@@ -9,4 +42,7 @@
   .footer-hr {
     margin: 23.5px 0 24.5px 0;
   }
+
+
+
 }

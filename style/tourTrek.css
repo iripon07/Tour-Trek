@@ -297,6 +297,87 @@ transform: translate(-50%, -50%);
   text-align: center;
 }
 
+/* CSS Styles for Offer Section  */
+.offer-package{
+  display: flex;
+  margin-top: 100px;
+}
+
+.offer-package-container{
+  border: 1px solid #FF5400;
+  width: 474px;
+  height: 422px;
+  margin-right: 24px;
+  padding: 40px 41px 40px 40px;
+  border-radius: 10px;
+}
+.offer-package-container h2{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #131318;
+  margin-bottom: 1rem;
+}
+.offer-package-container p{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #5A5A5D;
+  margin-bottom: 23.5px;
+}
+.offer-package-container hr{
+  border: 1px solid rgba(19, 19, 24, 0.1);
+  margin-bottom: 24.5px;
+}
+.input-field{
+  color: rgba(19, 19, 24, 0.3);
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  background-color: rgba(19, 19, 24, 0.05);
+  padding: 1rem;
+  border-radius: 0.8rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+#subscribe-btn{
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.offer-photo-container{
+  height: 422px;
+  width: 672px;
+  position: relative;
+}
+
+
+.offer-photo-container img{
+  display: block;
+}
+.offer{
+  width: 324px;
+  height: 120px;
+  border-radius: 0.5rem;
+  background-color: #ff5400;
+  color: #ffffff;
+  position: absolute;
+  right: 1.5%;
+  bottom: 12%;
+  transform: rotate(-19.63deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.offer h6{
+  font-family: 400;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.offer h4{
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+}
+
 /* CSS Styles for Footer Section  */
 
 footer {

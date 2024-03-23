@@ -369,8 +369,65 @@ main {
   margin: 1.5rem 0 3rem 0;
   text-align: center;
 }
-.tour-to-satorini {
-  background-image: url("/photos/Group 39.png");
+.tour-part-1{
+  position: relative;
+}
+.tour-part-1 img{
+  width: 100%;
+  height: 100%;
+  display: block;
+
+}
+.tour-part-details{
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 50px 77px 50px 50px;
+  border-radius: 10px;
+  transform: translate(-10%, -50%);
+}
+.tour-part-details-top{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.tour-part-details-top-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.tour-part-details-top-items i{
+  color: #FF5400;
+  width: 19px;
+  height: 19px;
+  margin-right:  8px;
+}
+.tour-part-details-top-items h6{
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.tour-part-details h3{
+  font-weight: 800;
+  font-size: 24px;
+  color: #131318;
+  margin: 24px 0 16px 0;
+}
+.tour-part-details p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5A5A5D;
+}
+.tour-part-details h5{
+  font-size: 20px;
+  font-weight: 800;
+  color: #FF5400;
+  margin: 16px 0 24px 0;
 }
 
 /* CSS Styles for Package Section  */

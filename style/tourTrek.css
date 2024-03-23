@@ -371,6 +371,7 @@ main {
 }
 .tour-part-1{
   position: relative;
+  margin-bottom: 24px;
 }
 .tour-part-1 img{
   width: 100%;
@@ -387,6 +388,7 @@ main {
   border-radius: 10px;
   transform: translate(-10%, -50%);
 }
+
 .tour-part-details-top{
   display: flex;
   justify-content: start;
@@ -424,6 +426,35 @@ main {
   color: #5A5A5D;
 }
 .tour-part-details h5{
+  font-size: 20px;
+  font-weight: 800;
+  color: #FF5400;
+  margin: 16px 0 24px 0;
+}
+
+
+.tour-part-details-2{
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  padding: 50px 77px 50px 50px;
+  border-radius: 10px;
+  transform: translate(10%, -50%);
+}
+
+.tour-part-details-2 h3{
+  font-weight: 800;
+  font-size: 24px;
+  color: #131318;
+  margin: 24px 0 16px 0;
+}
+.tour-part-details-2 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5A5A5D;
+}
+.tour-part-details-2 h5{
   font-size: 20px;
   font-weight: 800;
   color: #FF5400;

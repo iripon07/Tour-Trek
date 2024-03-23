@@ -74,11 +74,42 @@ ul {
     padding: 0 20px;
   }
 
-  .tour-section {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-  }
+  /* CSS Styles for Popular Tour Section  */
+.tour-section {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.tour-container{
+  margin-right: 0;
+}
+.tour-section-title{
+  font-size: 1.25rem;
+}
+.tour-description {
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.tour-container ul {
+  display: flex;
+  flex-direction: column;
+}
+.tour-container ul li {
+  list-style-type: disc;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(19, 19, 24, 0.7);
+}
+.tour-conclusion {
+  margin: 1.5rem 0 2rem 0;
+}
+
+.tour-section img{
+  width: 100%;
+  height: 100%;
+  margin-top: 24px;
+}
 
   /* CSS Styles for Destination Section  */
   .destination-section {

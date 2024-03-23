@@ -12,13 +12,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-.section-title {
-  font-weight: 800;
-  font-size: 2.5rem;
-  color: #131318;
-}
-
 .btn-primary {
   background-color: #ff5400;
   color: #ffffff;
@@ -180,12 +173,22 @@ main {
 .tour-section {
   margin-top: 100px;
   display: flex;
-  max-height: 550px;
+  /* max-height: 550px; */
 }
 
 .tour-container {
   margin-right: 53px;
-  border: 2px solid red;
+}
+.tour-section-title{
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #131318;
+}
+.tour-description {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(19, 19, 24, 0.7);
+  margin-top: 1.5rem;
 }
 
 .tour-container ul {
@@ -200,12 +203,7 @@ main {
   color: rgba(19, 19, 24, 0.7);
 }
 
-.tour-description {
-  font-weight: 400;
-  font-size: 1rem;
-  color: rgba(19, 19, 24, 0.7);
-  margin-top: 1.5rem;
-}
+
 
 .tour-conclusion {
   font-weight: 400;

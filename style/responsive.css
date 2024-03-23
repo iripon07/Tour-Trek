@@ -40,6 +40,36 @@ ul {
   visibility: hidden;
 }
 
+/* CSS Styles for Header's Banner Section  */
+
+.banner-text-part {
+  padding: 32px 24px;
+}
+
+.banner-hero {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+.banner-description {
+  font-size: 14;
+  margin-bottom: 2rem;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+.btn-button{
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+
+
+
+
   main{
     padding: 0 20px;
   }

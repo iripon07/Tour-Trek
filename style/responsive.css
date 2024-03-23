@@ -1,5 +1,64 @@
 @media only screen and (max-width: 576px) {
   /* CSS Styles for Popular Tour Section  */
+
+/* CSS Styles for Nav Section  */
+
+header {
+  padding: 0 20px;
+}
+
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .nav-logo img{
+    width: 4rem;
+    height: 4.5rem;
+} */
+
+.nav-logo h1 {
+  font-size: 21px;
+}
+.nav-logo span {
+  color: #ff5400;
+}
+
+.hamburger{
+  display: none;
+}
+
+.hamburger i{
+  width: 24px;
+  height: 24px;
+  color: #131318;
+  display: none;
+}
+
+ul {
+  display: flex;
+}
+ul > li {
+  list-style: none;
+  margin-left: 44px;
+  color: #424247;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+ul a {
+  text-decoration: none;
+  
+}
+
+.home-navbar{
+  color: #FF5400;
+}
+
+  main{
+    padding: 0 20px;
+  }
+
   .tour-section {
     margin-top: 100px;
     display: flex;
@@ -37,11 +96,11 @@
   }
   .grid-item-3 {
     grid-column: 1 / span 1;
-    grid-row: 3/ span 1;
+    grid-row: 3 / span 1;
   }
   .grid-item-4 {
     grid-column: 1 / span 1;
-    grid-row: 4/ span 1;
+    grid-row: 4 / span 1;
   }
   .grid-item-5 {
     grid-column: 1 / span 1;
@@ -49,11 +108,11 @@
   }
   .grid-item-6 {
     grid-column: 1 / span 1;
-    grid-row: 6/ span 1;
+    grid-row: 6 / span 1;
   }
   .grid-item-7 {
     grid-column: 1 / span 1;
-    grid-row: 7/ span 1;
+    grid-row: 7 / span 1;
   }
 
   .grid-container img {
@@ -62,26 +121,168 @@
     display: block;
   }
 
-  .package-container {
-    display: flex;
-    flex-direction: column;
+  /* CSS Styles for Why Choose Section  */
+  .choose-section {
+    margin: 1.5rem 0px;
   }
-  .offer-package {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.5rem;
+  .choose-section-title {
+    font-size: 1.25rem;
   }
-  .offer-package-container {
-    width: 335px;
-    height: 353px;
-    margin-bottom: 1rem;
-    padding: 1.5rem 1.5rem 1.5rem 23px;
+  .choose-section-description {
+    margin: 1rem 0;
   }
-  .offer-photo-container {
-    width: 335px;
-    height: 300px;
-    position: relative;
+
+  .choose-section-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1rem;
   }
+
+  .choose-section-grid-item-1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    padding: 2rem;
+  }
+
+  .choose-section-grid-item-2 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    padding: 2rem;
+  }
+
+  .choose-section-grid-item-3 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+    padding: 2rem;
+  }
+
+  .choose-section-grid-item img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .choose-section-grid-item h3 {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+  }
+  .choose-section-grid-item p {
+    font-size: 14px;
+  }
+
+  
+/* CSS Styles for Package Section  */
+
+.package-section {
+  margin: 24px 0;
+}
+.package-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.package-details-container {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 24px;
+}
+
+.package-section-title {
+  font-size: 1.25rem;
+}
+.package-description {
+  font-size: 14px;
+  margin: 1rem 0;
+}
+.package-details-container ul {
+  display: flex;
+  flex-direction: column;
+}
+.package-details-container li {
+  margin-right: 0;
+}
+#package-btn {
+  margin-top: 0.5rem;
+}
+
+.package-photo img {
+   width: 100%;
+  height: 100%;
+}
+.package-photo h5 {
+  font-size: 1.25rem;
+}
+
+
+
+  /* CSS Styles for News Letter Section  */
+
+.news-letter-section {
+  margin-top: 24px;
+}
+
+.news-letter-grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px;
+}
+
+.news-letter-container {
+  border: 1px solid #ff5400;
+  grid-column: 1/span 1;
+  grid-row: 1/span 1;
+  /* width: 474px;
+  height: 422px;
+  margin-right: 24px; */
+  padding: 24px 24px 24px 23px;
+  border-radius: 10px;
+}
+.news-letter-container h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.news-letter-container p {
+  font-size: 14px;
+  margin-bottom: 15.5px;
+}
+
+.news-letter-container hr {
+  margin-bottom: 16.5px;
+}
+
+#subscribe-btn {
+  margin-top: 4px;
+}
+.offer-photo-container {
+  grid-column: 1/span 1;
+  grid-row: 2/span 1;
+  width: 100%;
+  height: 100%;
+}
+
+.offer-photo-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.offer {
+  width: 214px;
+  height: 79px;
+  right: 1.8%;
+  bottom: 12%;
+  transform: rotate(-19.63deg);
+}
+.offer h6 {
+  font-size: 15.85px;
+}
+.offer h4 {
+  font-size: 21.14px;
+}
+
+/* CSS Styles for Footer Section  */
 
   footer {
     margin-top: 24px;

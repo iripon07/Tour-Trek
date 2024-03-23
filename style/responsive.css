@@ -6,53 +6,38 @@
 header {
   padding: 0 20px;
 }
-
+nav {
+  margin: 18px 0 17px 0;
+}
 .nav-logo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* .nav-logo img{
-    width: 4rem;
-    height: 4.5rem;
-} */
+.nav-logo img{
+    width: 33.52px;
+    height: 28.72px;
+}
 
 .nav-logo h1 {
   font-size: 21px;
 }
-.nav-logo span {
-  color: #ff5400;
-}
 
 .hamburger{
-  display: none;
+  display: block;
 }
 
 .hamburger i{
   width: 24px;
   height: 24px;
   color: #131318;
-  display: none;
+  display: block;
 }
 
 ul {
-  display: flex;
-}
-ul > li {
-  list-style: none;
-  margin-left: 44px;
-  color: #424247;
-  font-weight: 400;
-  font-size: 1.125rem;
-}
-
-ul a {
-  text-decoration: none;
-  
-}
-
-.home-navbar{
-  color: #FF5400;
+  position: absolute;
+  display: block;
+  visibility: hidden;
 }
 
   main{

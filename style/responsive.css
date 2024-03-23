@@ -1,115 +1,110 @@
 @media only screen and (max-width: 576px) {
   /* CSS Styles for Popular Tour Section  */
 
-/* CSS Styles for Nav Section  */
+  /* CSS Styles for Nav Section  */
 
-header {
-  padding: 0 20px;
-}
-nav {
-  margin: 18px 0 17px 0;
-}
-.nav-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.nav-logo img{
+  header {
+    padding: 0 20px;
+  }
+  nav {
+    margin: 18px 0 17px 0;
+  }
+  .nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-logo img {
     width: 33.52px;
     height: 28.72px;
-}
+  }
 
-.nav-logo h1 {
-  font-size: 21px;
-}
+  .nav-logo h1 {
+    font-size: 21px;
+  }
 
-.hamburger{
-  display: block;
-}
+  .hamburger {
+    display: block;
+  }
 
-.hamburger i{
-  width: 24px;
-  height: 24px;
-  color: #131318;
-  display: block;
-}
+  .hamburger i {
+    width: 24px;
+    height: 24px;
+    color: #131318;
+    display: block;
+  }
 
-ul {
-  position: absolute;
-  display: block;
-  visibility: hidden;
-}
+  ul {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+  }
 
-/* CSS Styles for Header's Banner Section  */
+  /* CSS Styles for Header's Banner Section  */
 
-.banner-text-part {
-  padding: 32px 24px;
-}
+  .banner-text-part {
+    padding: 32px 24px;
+  }
 
-.banner-hero {
-  font-size: 22px;
-  margin-bottom: 8px;
-}
-.banner-description {
-  font-size: 14;
-  margin-bottom: 2rem;
-}
+  .banner-hero {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .banner-description {
+    font-size: 14;
+    margin-bottom: 2rem;
+  }
 
-.button-container {
-  display: flex;
-  flex-direction: column;
-}
-.btn-button{
-  margin-right: 0;
-  width: 100%;
-  margin-bottom: 1rem;
-}
+  .button-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-button {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
-
-
-
-
-
-  main{
+  main {
     padding: 0 20px;
   }
 
   /* CSS Styles for Popular Tour Section  */
-.tour-section {
-  margin-top: 24px;
-  display: flex;
-  flex-direction: column;
-}
-.tour-container{
-  margin-right: 0;
-}
-.tour-section-title{
-  font-size: 1.25rem;
-}
-.tour-description {
-  font-size: 14px;
-  margin-top: 1rem;
-}
-.tour-container ul {
-  display: flex;
-  flex-direction: column;
-}
-.tour-container ul li {
-  list-style-type: disc;
-  margin-top: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  color: rgba(19, 19, 24, 0.7);
-}
-.tour-conclusion {
-  margin: 1.5rem 0 2rem 0;
-}
+  .tour-section {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .tour-container {
+    margin-right: 0;
+  }
+  .tour-section-title {
+    font-size: 1.25rem;
+  }
+  .tour-description {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  .tour-container ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .tour-container ul li {
+    list-style-type: disc;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.7);
+  }
+  .tour-conclusion {
+    margin: 1.5rem 0 2rem 0;
+  }
 
-.tour-section img{
-  width: 100%;
-  height: 100%;
-  margin-top: 24px;
-}
+  .tour-section img {
+    width: 100%;
+    height: 100%;
+    margin-top: 24px;
+  }
 
   /* CSS Styles for Destination Section  */
   .destination-section {
@@ -217,118 +212,198 @@ ul {
     font-size: 14px;
   }
 
-  
-/* CSS Styles for Package Section  */
+  /* CSS Styles for Deals & Discount Section  */
+  .discount-section-title {
+    font-size: 1.25rem;
+  }
+  .discount-section-description {
+    font-size: 14px;
+    text-align: center;
+    margin: 16px 0;
+  }
+  .tour-part-1 {
+    position: relative;
+    margin-bottom: 24px;
+  }
+  .tour-part-1 img {
+    width: 100%;
+    height: 500px;
+    display: block;
+    object-fit: cover;
+  }
+  .tour-part-details {
+    top: 60.5%;
+    left: 16.5%;
+    padding: 24px;
+    border-radius: 10px;
+  }
 
-.package-section {
-  margin: 24px 0;
-}
-.package-container {
-  display: flex;
-  flex-direction: column;
-}
+  .tour-part-details-top {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
 
-.package-details-container {
-  width: 100%;
-  height: 100%;
-  margin-bottom: 24px;
-}
+  .tour-part-details-top-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+  }
 
-.package-section-title {
-  font-size: 1.25rem;
-}
-.package-description {
-  font-size: 14px;
-  margin: 1rem 0;
-}
-.package-details-container ul {
-  display: flex;
-  flex-direction: column;
-}
-.package-details-container li {
-  margin-right: 0;
-}
-#package-btn {
-  margin-top: 0.5rem;
-}
+  .tour-part-details-top-items i {
+    color: #ff5400;
+    width: 19px;
+    height: 19px;
+    margin-right: 8px;
+  }
+  .tour-part-details-top-items h6 {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-weight: 400;
+  }
 
-.package-photo img {
-   width: 100%;
-  height: 100%;
-}
-.package-photo h5 {
-  font-size: 1.25rem;
-}
+  .tour-part-details h3 {
+    font-size: 20px;
+    margin: 16px 0 8px 0;
+  }
+  .tour-part-details p {
+    font-size: 14px;
+  }
+  .tour-part-details h5 {
+    font-size: 16px;
+    margin: 12px 0 16px 0;
+  }
 
+  .tour-part-details-2 {
+    top: 60%;
+    left: -2.3%;
+    padding: 24px;
+    border-radius: 10px;
+    width: 87%;
+  } 
 
+  .tour-part-details-2 h3 {
+    font-size: 20px;
+    margin: 16px 0 8px 0;
+  }
+  .tour-part-details-2 p {
+    font-size: 14px;
+  }
+  .tour-part-details-2 h5 {
+    font-size: 16px;
+    margin: 12px 0 16px 0;
+  } 
+
+  /* CSS Styles for Package Section  */
+
+  .package-section {
+    margin: 24px 0;
+  }
+  .package-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .package-details-container {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+  }
+
+  .package-section-title {
+    font-size: 1.25rem;
+  }
+  .package-description {
+    font-size: 14px;
+    margin: 1rem 0;
+  }
+  .package-details-container ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .package-details-container li {
+    margin-right: 0;
+  }
+  #package-btn {
+    margin-top: 0.5rem;
+  }
+
+  .package-photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .package-photo h5 {
+    font-size: 1.25rem;
+  }
 
   /* CSS Styles for News Letter Section  */
 
-.news-letter-section {
-  margin-top: 24px;
-}
+  .news-letter-section {
+    margin-top: 24px;
+  }
 
-.news-letter-grid-container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 16px;
-}
+  .news-letter-grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 16px;
+  }
 
-.news-letter-container {
-  border: 1px solid #ff5400;
-  grid-column: 1/span 1;
-  grid-row: 1/span 1;
-  /* width: 474px;
+  .news-letter-container {
+    border: 1px solid #ff5400;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+    /* width: 474px;
   height: 422px;
   margin-right: 24px; */
-  padding: 24px 24px 24px 23px;
-  border-radius: 10px;
-}
-.news-letter-container h2 {
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-.news-letter-container p {
-  font-size: 14px;
-  margin-bottom: 15.5px;
-}
+    padding: 24px 24px 24px 23px;
+    border-radius: 10px;
+  }
+  .news-letter-container h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .news-letter-container p {
+    font-size: 14px;
+    margin-bottom: 15.5px;
+  }
 
-.news-letter-container hr {
-  margin-bottom: 16.5px;
-}
+  .news-letter-container hr {
+    margin-bottom: 16.5px;
+  }
 
-#subscribe-btn {
-  margin-top: 4px;
-}
-.offer-photo-container {
-  grid-column: 1/span 1;
-  grid-row: 2/span 1;
-  width: 100%;
-  height: 100%;
-}
+  #subscribe-btn {
+    margin-top: 4px;
+  }
+  .offer-photo-container {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+    width: 100%;
+    height: 100%;
+  }
 
-.offer-photo-container img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.offer {
-  width: 214px;
-  height: 79px;
-  right: 1.8%;
-  bottom: 12%;
-  transform: rotate(-19.63deg);
-}
-.offer h6 {
-  font-size: 15.85px;
-}
-.offer h4 {
-  font-size: 21.14px;
-}
+  .offer-photo-container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .offer {
+    width: 214px;
+    height: 79px;
+    right: 1.8%;
+    bottom: 12%;
+    transform: rotate(-19.63deg);
+  }
+  .offer h6 {
+    font-size: 15.85px;
+  }
+  .offer h4 {
+    font-size: 21.14px;
+  }
 
-/* CSS Styles for Footer Section  */
+  /* CSS Styles for Footer Section  */
 
   footer {
     margin-top: 24px;
